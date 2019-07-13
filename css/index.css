@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    background-color: black;
 }
 ol, ul {
 	list-style: none;
@@ -69,6 +70,34 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    /* display: flex; */
+}
+
+.navbar{
+    margin: 30px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a{
+  /* border: 0.5px solid orange; */
+  align-items: center;
+  margin: 20px 0px 50px 0px;
+  padding: 10px 50px 50px 10px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+.jumbo{
+    display: flex;
+    padding: 5%;
+    position: relative;
+    right: 30px;
+    /* border: 1px solid red; */
 }
 
 .top-content {
@@ -111,6 +140,48 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .teal{
+    background-color: teal;
+}
+.middle-content .boxes .gold{
+    background-color: gold;
+}
+
+.middle-content .boxes .cadetblue{
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .coral{
+    background-color: coral;
+}
+
+.middle-content .boxes .teal{
+    background-color: teal;
+}
+
+.middle-content .boxes .crimson{
+    background-color: crimson;
+}
+
+.middle-content .boxes .forestgreen{
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .darkorchid{
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .hotpink{
+    background-color: hotpink;
+}
+
+.middle-content .boxes .indigo{
+    background-color: indigo;
+}
+
+.middle-content .boxes .dodgerblue{
+    background-color: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -143,4 +214,29 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About CSS */
+
+.content-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    transition: .3s;
 }
