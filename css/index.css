@@ -253,12 +253,6 @@ footer nav a {
     border: 2px solid black;
 }
 
-.content-item button:hover {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    opacity: 1;
-}
 
 .content-item h3 {
     margin-top: 10px;
