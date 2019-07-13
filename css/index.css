@@ -218,7 +218,7 @@ footer nav a {
 
 /* About CSS */
 
-.about {
+.about-page-content {
     padding-bottom: 10px;
     border-bottom: 1px dashed black;
 }
@@ -261,3 +261,4 @@ footer nav a {
 .bottom-content {
     padding: 10px;
 }
+
